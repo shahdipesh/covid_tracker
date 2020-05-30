@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link type="stylesheet" href="./../../css/stylesheet.css">
+
+</head>
+
+<title></title>
+
+<body>
+    {{>header}}
+
+    <div id='msg'> Track the country's progress in dealing with Covid-19</div>
+
+    <div class="wrap">
+        <div class="search">
+            <input id="search" type="text" class="searchTerm" placeholder="Please enter a country's name">
+            <button onclick=displayResult() text ="Submit" type="submit" class="searchButton">
+               Submit <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </div>
+    <div id="result">
+
+        <div id="Confirmed">
+             Confirmed Cases
+             <div id ="confirmed_data">
+                 22
+             </div>
+
+
+        </div>
+        
+         <div id="Recovered">
+             Recovered Cases
+             <div id ="Recovered_data">
+                 20
+             </div>
+             
+
+        </div>
+
+   <div id="Active">
+             Active Cases
+             <div id ="Active_data">
+                 80
+             </div>
+             
+
+        </div>
+ <div id="Deaths">
+             Deaths 
+             <div id ="Deaths_data">
+                 15
+             </div>
+             
+
+        </div>
+
+
+
+
+    </div>
+
+    <script src="./../../script/app.js"></script>
+</body>
+
+
+</html>
